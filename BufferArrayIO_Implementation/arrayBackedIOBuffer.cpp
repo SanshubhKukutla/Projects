@@ -23,6 +23,6 @@ class ArrayBuffer{
     size_t writeable() const{return cap_ - w_;} //free spaces at tail
     bool empty() const{return readable == 0;}
 
-    
+        
     
 };
